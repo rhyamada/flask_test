@@ -1,0 +1,9 @@
+version: "3.0"
+services:
+  flask:
+    build:
+      context: .
+    volumes:
+      - "./:/opt/python"
+    ports:
+      - "5000:5000"
